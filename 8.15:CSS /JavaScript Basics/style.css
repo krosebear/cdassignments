@@ -1,0 +1,94 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+a {
+    color: #36bcc8;
+}
+#wrapper{
+ width: 1250px;
+ height: 600px;
+ background-color: #12355b;
+ padding: 20px;
+}
+#headerblock{
+ height: 65px;
+ background-color: #d72638;
+ padding-bottom: 5px;
+ margin-bottom: 10px;
+ border: none;
+ border-radius: 15px;
+}
+#header{
+ color: #bfd7ea;
+ padding-left: 10px;
+ padding-top: 15px;
+}
+#navigation{
+ height: 240px;
+ width: 220px;
+ background-color: #087e8b;
+ vertical-align: top;
+ display: inline-block;
+ margin-right: 10px;
+ border: none;
+ border-radius: 15px;
+}
+.nav_content{
+display: inline-block;
+padding-left: 20px;
+padding-top: 20px;
+color: #bfd7ea;
+}
+.nav_sub{
+  display: inline-block;
+  padding-left: 20px;
+  color: #bfd7ea;
+}
+.nav_subcontent{
+  display: inline-block;
+  padding-left: 30px;
+  margin-top: 20;
+  color: #bfd7ea;
+}
+#main_content{
+ height: 455px;
+ width: 950px;
+ background-color: #0c1821;
+ display: inline-block;
+ border: none;
+ border-radius: 15px;
+}
+.content{
+color: #bfd7ea;
+display: inline-block;
+margin: 15px;
+padding-left: 10px;
+}
+.list_content{
+color: #bfd7ea;
+padding-left: 20px;
+}
+#useful_info{
+ height: 50px;
+ width: 1245px;
+ background-color: #5c6672;
+ margin-left: 5px;
+ margin-top: 15px;
+ display: inline-block;
+ border: none;
+ border-radius: 15px;
+}
+.useful_content{
+color: #b6d0e5;
+padding-top: 12.5px;
+padding-left: 10px;
+}
+.purple {
+  color: #113cc5;
+}
+.javacontent{
+  margin-top: 2px;
+
+}
