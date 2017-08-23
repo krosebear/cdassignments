@@ -1,0 +1,171 @@
+#wrapper{
+  background-color: white;
+  font-family: sans-serif;
+  height: 1500px;
+  width: auto;
+}
+.globe{
+  height: 15%;
+  width: 15%;
+  z-index: 1;
+}
+.title{
+  display: inline-block;
+  vertical-align: top;
+  font-size: 56px;
+  color: #474747;
+  font-weight: 300;
+  margin-top: 41px;
+}
+#header{
+  z-index: 1;
+}
+  .net{
+    color: #02689b;
+  }
+.headerbar{
+  height: 60px;
+  width: 1000px;
+  background-color: #4785aa;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  top: 15%;
+  left: 3%;
+  /*z-index: -1;*/
+}
+  .www{
+    color: white;
+    font-weight: 300;
+    font-size: 40px;
+    position: absolute;
+    left: 1%;
+    top: 1%;
+  }
+#topnavbar{
+  width: 200px;
+  height: 200px;
+  /*display: inline;*/
+  background-color: white;
+  margin-left: 10px;
+  padding-top: 35px;
+}
+  .navtitle{
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .ntr{
+    color: red;
+  }
+  .navsum{
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+  }
+  .navsumblue{
+    color: blue;
+  }
+#topnavbuttons{
+  border-radius: 4px;
+  font-size: 24px;
+  padding-top: 10px;
+}
+  .button1{
+    background-color:#036b9d; /*blue*/
+    color: white;
+    border-radius: 6px;
+    width: 180px;
+    height: 30px;
+    margin: 0px 0px 3px 8px;
+    font-size: 16px;
+  }
+  .button2{
+    background-color: #f1aa62; /*orange*/
+    color: white;
+    border-radius: 6px;
+    width: 180px;
+    height: 30px;
+    margin-left: 8px;
+    font-size: 16px;
+  }
+  #content{
+    margin-left: 200px;
+    display: inline-block;
+  }
+.dnsicon{
+  height: 5%;
+  width: 5%;
+  display: inline-block;
+}
+.dns{
+  color:blue;
+  display: inline-block;
+}
+.contact{
+  position: absolute;
+  right: -4%;
+  top: 20%;
+}
+.callhours{
+  color:black;
+  vertical-align: top;
+  font-size: 10px;
+}
+.picon{
+  height: 42%;
+width: 27%;
+position: absolute;
+top: 31%;
+right: 103%;
+}
+.pnumber{
+  color: #0fc5dd;
+  vertical-align: top;
+}
+/*.callhours{
+  vertical-align: top;
+
+}*/
+  #bottomnavbar{
+    padding-top: 30px;
+    position: absolute;
+    top: 57%
+    height: 200px;
+    width: 190px;
+    padding-right: 0px;
+    margin-left: 15px;
+  }
+  .adback{
+    height: 300px;
+    width: 180px;
+  }
+  .ninja{
+    height: 37%;
+    width: 46%;
+    position: absolute;
+    top: 58%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+  }
+  .adtext{
+    font-size: 23px;
+    color: white;
+    height: 40%;
+    width: 95%;
+    position: absolute;
+    top: 8%;
+    left: -0.5%;
+    text-align: center;
+  }
+  .adbutton{
+    background-color: #00c5dc;
+    color: white;
+    margin: 0px 0px 3px 8px;
+    border-radius: 6px;
+    font-size: 20px;
+    padding-top: 2px;
+    position: absolute;
+    bottom: 7%;
+    left: 5.5%;
+  }

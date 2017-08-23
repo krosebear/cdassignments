@@ -1,0 +1,24 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $('img').click(function(){
+        $(this).attr('temp', $(this).attr('src'));
+        $(this).attr('src', $(this).attr('alt-src'));
+        $(this).attr('alt-src', $(this).attr('temp'));
+      });
+    });
+    </script>
+</head>
+<body>
+  <h1 id="n2c">Ninja to Cat </h1><br>
+  <img src='ninja0.png' alt-src='cat0.png' temp=""/><br>
+  <img src='ninja1.png' alt-src='cat1.png' temp=""/><br>
+  <img src='ninja2.png' alt-src='cat2.png' temp=""/><br>
+  <img src='ninja3.png' alt-src='cat3.png' temp=""/><br>
+  <img src='ninja4.png' alt-src='cat4.png' temp=""/><br>
+
+  <h3>Click on image to make ninja go to cat</h3>
+
+</body>
